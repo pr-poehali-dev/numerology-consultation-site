@@ -72,7 +72,7 @@ const Index = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-stone-50 to-neutral-100">
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
@@ -139,15 +139,15 @@ const Index = () => {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <Badge className="mb-6 bg-secondary text-secondary-foreground">Профессиональная нумерология</Badge>
+          <Badge className="mb-6 bg-stone-200 text-stone-700">Профессиональная нумерология</Badge>
           <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6 animate-fade-in" 
               style={{fontFamily: "'Playfair Display', serif"}}>
             Откройте своё <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-stone-700 to-stone-500">
               предназначение
             </span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto animate-fade-in">
+          <p className="text-xl text-stone-600 mb-8 max-w-2xl mx-auto animate-fade-in">
             Получите глубокие понимания о своей жизни через древнюю мудрость чисел. 
             Узнайте свои скрытые таланты, жизненную миссию и пути к успеху.
           </p>
@@ -279,18 +279,18 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="bg-gradient-to-r from-primary/5 to-secondary/10 py-16">
+      <section id="about" className="bg-gradient-to-r from-stone-100 to-stone-50 py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h2 className="text-4xl font-bold text-primary mb-6" style={{fontFamily: "'Playfair Display', serif"}}>
                 Обо мне
               </h2>
-              <p className="text-gray-700 mb-6 leading-relaxed">
+              <p className="text-stone-700 mb-6 leading-relaxed">
                 Меня зовут <strong>Мария Звездочетова</strong>, и я практикующий нумеролог с 15-летним опытом. 
                 Моя миссия — помочь людям раскрыть свой истинный потенциал через древнюю мудрость чисел.
               </p>
-              <p className="text-gray-700 mb-6 leading-relaxed">
+              <p className="text-stone-700 mb-6 leading-relaxed">
                 За годы практики я провела более 3000 консультаций, помогая людям найти свой жизненный путь, 
                 улучшить отношения и достичь финансового благополучия.
               </p>
@@ -298,11 +298,11 @@ const Index = () => {
               <div className="grid grid-cols-2 gap-6 mb-6">
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="text-3xl font-bold text-primary">15+</div>
-                  <div className="text-gray-600">лет опыта</div>
+                  <div className="text-stone-600">лет опыта</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="text-3xl font-bold text-primary">3000+</div>
-                  <div className="text-gray-600">консультаций</div>
+                  <div className="text-stone-600">консультаций</div>
                 </div>
               </div>
 
